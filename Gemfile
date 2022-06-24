@@ -53,6 +53,8 @@ gem 'simple_form'
 gem 'state_machines'
 gem 'state_machines-activerecord'
 
+gem "slim-rails"
+
 group :development, :test do
   gem 'factory_bot_rails'
   gem 'rubocop'
