@@ -55,6 +55,11 @@ gem 'state_machines-activerecord'
 
 gem 'slim-rails'
 
+gem 'kaminari'
+gem 'ransack', :github => 'activerecord-hackery/ransack', :branch => 'main'
+gem 'responders'
+gem 'active_model_serializers'
+
 group :development, :test do
   gem 'factory_bot_rails'
   gem 'rubocop'
